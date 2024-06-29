@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dreamy_story_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dreamy_story_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DreamyStory"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="..." />
+
+        <activity
+            android:name=".view.maps.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.myapp.dreamystory.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".view.addstory.AddStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.detailstory.DetailStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.welcome.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.signup.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.splashscreen.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

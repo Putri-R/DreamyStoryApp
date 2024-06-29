@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dreamy Story</string>
+    <string name="title">Welcome to Dreamy Story</string>
+    <string name="welcome_desc">An app where you can save your stories</string>
+    <string name="welcome_signup">Don\'t have an account yet? please register first by clicking the button below!</string>
+    <string name="login_desc">Please input your registered data first..</string>
+    <string name="signup_desc">Please complete your details in the fields..</string>
+    <string name="add_story_desc">Your story description...</string>
+    <string name="user_name">Your name</string>
+    <string name="user_email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register Now</string>
+    <string name="signup_button">Sign up</string>
+    <string name="logout_button">Logout</string>
+    <string name="map_button">Map</string>
+    <string name="add_story_button">Add Story</string>
+    <string name="story_image">Story Image</string>
+    <string name="story_user">creator\'s name</string>
+    <string name="story_desc">story description</string>
+    <string name="story_time">story time</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="empty_image_warning">Please insert the image file</string>
+    <string name="empty_desc">Please make your story description</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Retry</string>
+    <string name="story_loc">My Story Location: %1$s, %2$s</string>
+    <string name="story_loc_failed">Story location not found</string>
+    <string name="location_checkbox">Include my location</string>
+    <string name="invalid_email">Invalid! your email is invalid</string>
+    <string name="invalid_password">Invalid! Password cannot be less than 8 characters</string>
+</resources>
