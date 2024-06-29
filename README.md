@@ -1,6 +1,6 @@
 # Dreamy Story App - Mobile App
 Here is the repository for Dicoding Submission "Belajar Pengembangan Aplikasi Android Intermediate"  
-MSIB Kampus Merdeka Batch 6 - Bangkit Academy
+MSIB Kampus Merdeka Batch 6 - Bangkit Academy 2024
 
 ![GitHub_Putri-R_Dreamy Story](https://github.com/Putri-R/DreamyStoryApp/assets/125380130/b686d632-e809-45dd-a00f-1d2d287352d2)
 
